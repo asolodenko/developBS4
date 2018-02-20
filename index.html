@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign up</title>
+    <link href="styles/style.css" rel="stylesheet" >
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <h1>Sign up form</h1>
+            <p>Here is a simple example of sign up form, which is constructed with using Bootstrap 4</p>
+          </div>
+          <div class="col-8">
+            <h4>Needed data</h4>
+            <form class="needs-validation was-validated" novalidate>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label class="col-form-label" for="firstName">First name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="Your name" value="" required="">
+                        <div class="invalid-feedback">
+                            Valid first name is required.
+                        </div>
+                    </div>
+                </div>
+            </form>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
